@@ -17,6 +17,16 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+  "comma-dangle": [
+    "error",
+    {
+      "arrays": "never",
+      "objects": "never",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+    }
+  ],
   "plugins": ["react", "react-native", "jsx-a11y", "import"],
   "rules": {
     "react/jsx-filename-extension": [
